@@ -22,7 +22,16 @@ class Tabla:
             print('Debe de ser un número del 0 al 9')
             n2 = input()
             Tabla(self.n1, n2)
-            
+    
+    def construir_tabla(self):
+        filas = [''] * self.n1
+        lista = ','.join(filas)
+        columnas = (lista + '\n ') * self.n2
+        lista1 = ','.join(columnas)
+        lista2 = [lista1]
+        return lista2
+        
+
         
             
            
