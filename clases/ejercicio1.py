@@ -17,5 +17,3 @@ def limpiar(matriz):
                     matriz[i][-1] = suma
                     
         
-limpiar(matriz)
-print(matriz)
