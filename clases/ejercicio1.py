@@ -4,10 +4,16 @@ matriz = [[1,1,1,3],
           [3, 3, 3, 9], 
           [4, 4, 4, 13]]
 
-def limpiar():
-    for i in matriz:
-        for j in matriz:
-            if sum(matriz[i][:-1]) == matriz[i][-1]:
-                pass
-            else:
-                matriz[i][-1] = sum(matriz[i][:-1])
+def limpiar(matriz):
+    suma = 0
+    j = 0
+ 
+    for i in range(len(matriz)): 
+    
+        for j in range(len(matriz)):
+        
+            if j < 3:
+                suma = matriz[i][j] + suma
+                print(suma)
+        
+limpiar(matriz)
