@@ -1,6 +1,6 @@
 class Cadena:
     def __init__(self):
-        self.__usuario = 0
+        self.__usuario = 'A'
         
     @property
     def usuario(self):
