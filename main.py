@@ -5,3 +5,5 @@ if __name__=='__main__':
     print('Introduzca una frase')
     usuario = input()
     c.usuario(usuario)
+    prueba = c.comprobar()
+    print(prueba)

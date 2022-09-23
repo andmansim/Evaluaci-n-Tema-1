@@ -10,4 +10,8 @@ class Cadena:
     def usuario(self, nuevo):
         self.__usuario = nuevo
         
-
+    def comprobar(self):
+        if  len(self.__usuario) == 3 or  3 < len(self.__usuario) < 10:
+            return True
+        else:
+            return False
