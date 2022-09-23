@@ -1,6 +1,7 @@
 from clases.ejercicio2 import *
 from clases.ejercicio1 import*
 from clases.ejercicio3 import*
+from clases.tabla import*
 
 if __name__=='__main__':
     print('Qué ejercicio quieres ejecutar?')
@@ -33,4 +34,7 @@ if __name__=='__main__':
         print(lista4)
         lista5 = generar_listas(0, 50, 5)
         print(lista5)
+    elif u == 4:
+        #Ejercicio 4
+        
         
