@@ -1,19 +1,21 @@
 
-matriz = [[1,1,1,3],
-          [2, 2, 2, 7], 
-          [3, 3, 3, 9], 
-          [4, 4, 4, 13]]
 
 def limpiar(matriz):
-    suma = 0
-    j = 0
+    
  
     for i in range(len(matriz)): 
-    
+        suma = 0
         for j in range(len(matriz)):
         
             if j < 3:
                 suma = matriz[i][j] + suma
-                print(suma)
+                
+            elif j == 3:
+                if suma == matriz[i][-1]:
+                    pass
+                else:
+                    matriz[i][-1] = suma
+                    
         
 limpiar(matriz)
+print(matriz)
