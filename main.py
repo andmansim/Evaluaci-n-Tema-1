@@ -36,5 +36,9 @@ if __name__=='__main__':
         print(lista5)
     elif u == 4:
         #Ejercicio 4
-        
-        
+        print('Introduce dos números del 0 al 9')
+        print('Número 1')
+        n1 = input()
+        print('Número 2')
+        n2 = input()
+        t = Tabla(n1, n2)
