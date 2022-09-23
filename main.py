@@ -8,10 +8,10 @@ if __name__=='__main__':
     #Ejercicio 2
     u = input()
     if u == 2:
-        c = Cadena()
+        
         print('Introduzca una frase')
         usuario = str(input())
-        c.usuario(usuario)
+        c = Cadena(usuario)
         prueba = c.comprobar()
         print(prueba)
     elif u == 1:
@@ -42,3 +42,5 @@ if __name__=='__main__':
         print('Número 2')
         n2 = input()
         t = Tabla(n1, n2)
+        tabla = t.construir_tabla()
+        print(tabla)
